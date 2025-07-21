@@ -1,0 +1,98 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body .tone {
+    height: 540%;
+  }
+  .collapse .navlist {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .collapse .navlist .nav-link {
+    font-size: x-large;
+  }
+  .collapse .navbar-nav {
+    margin: 0;
+  }
+  .home-page .main {
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+  }
+  .home-page .main .about-div {
+    width: 100%;
+  }
+  .home-page .main .about-div h1 {
+    font-size: 36px;
+  }
+  .home-page .main .about-div p {
+    font-size: 18px;
+    margin: 0 10%;
+  }
+  .home-page .main .about-div .buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add space to buttons */
+  }
+  .home-page .main .about-div .buttons .hire, .home-page .main .about-div .buttons .skills {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px; /* Space between buttons */
+  }
+  .home-page .main .image-div {
+    width: 80%;
+    margin: 20px auto; /* Center the image */
+  }
+  .home-page .main .image-div img {
+    max-width: 100%;
+    border-radius: 10%;
+  }
+  .education-page {
+    display: flex;
+    justify-content: center;
+  }
+  .education-page .main {
+    width: 90%;
+  }
+  .education-page .main h1 {
+    font-size: 23px;
+    margin: 5%;
+  }
+  .education-page .main p {
+    margin: 5%;
+    font-size: 17px;
+  }
+  .skills-page {
+    margin: 10% 0%;
+  }
+  .skills-page .main {
+    width: 90%;
+    text-align: center;
+  }
+  .skills-page .main h1 {
+    font-size: 40px;
+  }
+  .skills-page .main .grid-item img {
+    margin-top: 4%;
+    max-width: 30%;
+  }
+  .skills-page .main .grid-item h2 {
+    font-size: 30px;
+  }
+  .skills-page .main .grid-container {
+    grid-template-columns: 2, 1 fr;
+  }
+  .contacts-page .main {
+    margin-top: 10%;
+    width: 90%;
+    text-align: center;
+  }
+  .contacts-page .main .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .contacts-page .main .icons img {
+    max-width: 5.5em;
+  }
+}/*# sourceMappingURL=tabletstyles.css.map */
