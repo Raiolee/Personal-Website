@@ -1,0 +1,110 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+body {
+  .tone {
+    height: 540%;
+  }
+}
+
+.collapse {
+  .navlist {
+    flex-direction: column;
+    padding: 10px 0;
+    .nav-link {
+      font-size: x-large;
+    }
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+}
+  .home-page {
+    .main {
+      flex-direction: column;
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+      .about-div {
+        width: 100%;
+        h1 {
+          font-size: 36px;
+        }
+        p {
+          font-size: 18px;
+          margin: 0 10%;
+        }
+        .buttons {
+          flex-direction: column;
+          align-items: center;
+          margin-top: 20px; /* Add space to buttons */
+
+          .hire, .skills {
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            margin-bottom: 10px; /* Space between buttons */
+          }
+        }
+      }
+      .image-div {
+        width: 80%;
+        margin: 20px auto; /* Center the image */
+        img {
+          max-width: 100%;
+          border-radius: 10%;
+        }
+      }
+    }
+  }
+  .education-page {
+    display: flex;
+    justify-content: center;
+    .main {
+      width: 90%;
+      h1 {
+        font-size: 23px; 
+        margin: 5%;
+      }
+      p {
+        margin: 5%;
+        font-size: 17px; 
+      }
+    }
+  }
+  .skills-page {
+    margin: 10% 0%;
+    .main {
+      width: 90%;
+      text-align: center;
+      h1 {
+        font-size: 40px;
+      }
+      .grid-item {
+        img {
+          margin-top: 4%;
+          max-width: 30%;
+        }
+        h2 {
+          font-size: 30px;
+        }
+      }
+      .grid-container {
+        grid-template-columns: (2,1)fr;
+      }
+    }
+  }
+  .contacts-page {
+    .main {
+      margin-top: 10%;
+      width: 90%;
+      text-align: center;
+      .icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+          img {
+              max-width: 5.5em;
+          }
+      }
+    }
+  }
+}
